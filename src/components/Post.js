@@ -65,8 +65,52 @@ function Post() {
 					<span className="post-details-username">angela.hue</span>
 					<span className="post-details-text">&nbsp;liked this</span>
 				</div>
+
+				<div className="post-comments-container">
+					<div className="post-comments-title">
+						View all 65 comments
+					</div>
+					<div className="post-comments-list">
+						<div className="post-comment-item">
+							<span className="post-details-username">
+								charles.krang
+							</span>
+							<span className="post-details-text">
+								&nbsp;this is soo nice, how do you do it?
+							</span>
+						</div>
+
+						<div className="post-comment-item">
+							<span className="post-details-username">
+								charles.krang
+							</span>
+							<span className="post-details-text">
+								&nbsp;this is soo nice, how do you do it?
+							</span>
+						</div>
+
+						<div className="post-comment-item">
+							<span className="post-details-username">
+								charles.krang
+							</span>
+							<span className="post-details-text">
+								&nbsp;this is soo nice, how do you do it?
+							</span>
+						</div>
+
+						<div className="post-comment-item">
+							<span className="post-details-username">
+								charles.krang
+							</span>
+							<span className="post-details-text">
+								&nbsp;this is soo nice, how do you do it?
+							</span>
+						</div>
+					</div>
+				</div>
+
+				<div className="post-comment-container"></div>
 			</div>
-			<div className="post-comment-container"></div>
 		</div>
 	);
 }

@@ -203,7 +203,7 @@
 .post-likes-container {
 	display: flex;
 	align-items: center;
-	margin: 8px 0px;
+	margin: 4px 0px;
 }
 .post-likes-recent-image {
 	width: 20px;
@@ -221,6 +221,17 @@
 	line-height: 14px;
 	overflow: hidden;
 	white-space: nowrap;
+}
+
+.post-owner-container,
+.post-comments-container,
+.post-comment-item {
+	margin: 4px 0px;
+}
+
+.post-comments-title {
+	font-size: 14px;
+	color: #8e8e8e;
 }
 
 /* .homepage-sidebar {
