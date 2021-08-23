@@ -226,9 +226,12 @@ ion-icon[name='happy-outline'] {
 
 .post-owner-container,
 .post-comments-container,
-.post-comment-item,
-.post-details-time {
+.post-comment-item {
 	margin: 4px 0px;
+}
+
+.post-details-time {
+	margin: 8px 0px;
 }
 
 .post-comments-title,
