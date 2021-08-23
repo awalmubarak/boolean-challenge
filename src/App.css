@@ -33,6 +33,7 @@
 .header-actions {
 	display: flex;
 	justify-content: flex-end;
+	align-items: center;
 }
 
 .header-actions,
@@ -71,4 +72,17 @@
 	border: 0px;
 	outline: 0;
 	padding: 3px 10px 3px 26px;
+}
+
+.header-actions ion-icon {
+	font-size: 24px;
+}
+
+.header-actions-item {
+	margin-left: 14px;
+}
+
+.header-user-profile {
+	width: 27px;
+	border-radius: 100%;
 }
