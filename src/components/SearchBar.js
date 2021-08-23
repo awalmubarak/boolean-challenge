@@ -27,6 +27,9 @@ function SearchBar() {
 					className="searchbar-notfocused"
 					onClick={handleFocusedState}
 				>
+					<span className="icon">
+						<ion-icon name="search-outline"></ion-icon>
+					</span>
 					<span>Search</span>
 				</div>
 			)}
