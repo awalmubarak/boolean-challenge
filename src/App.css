@@ -138,9 +138,37 @@
 	white-space: nowrap;
 	-ms-overflow-style: none;
 	scrollbar-width: none;
+	margin-bottom: 24px;
 }
 .stories-main::-webkit-scrollbar {
-	display: none; /* Safari and Chrome */
+	display: none;
+}
+
+.post-header-container {
+	height: 60px;
+	width: 100%;
+	background-color: white;
+	border-radius: 3px;
+	border: 1px solid #dbdbdb;
+	padding: 16px;
+	margin-bottom: 24px;
+	display: flex;
+	align-items: center;
+}
+
+.post-header-details {
+	display: flex;
+	width: 100%;
+	height: 3px;
+	margin-left: 14px;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.post-header-username {
+	font-weight: bold;
+	color: #262626;
+	font-size: 14px;
 }
 
 /* .homepage-sidebar {
