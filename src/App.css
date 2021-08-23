@@ -149,11 +149,11 @@
 	margin-bottom: 24px;
 	border: 1px solid #dbdbdb;
 	border-radius: 3px;
+	background-color: white;
 }
 .post-header-container {
 	height: 60px;
 	width: 100%;
-	background-color: white;
 	padding: 16px;
 	display: flex;
 	align-items: center;
@@ -193,7 +193,8 @@
 	font-size: 24px;
 }
 
-.post-details-icons ion-icon[name='heart-outline'] {
+.post-details-icons ion-icon[name='heart-outline'],
+ion-icon[name='happy-outline'] {
 	font-size: 25px;
 }
 .post-details-left-icons > span {
@@ -225,13 +226,53 @@
 
 .post-owner-container,
 .post-comments-container,
-.post-comment-item {
+.post-comment-item,
+.post-details-time {
 	margin: 4px 0px;
 }
 
-.post-comments-title {
+.post-comments-title,
+.post-details-time {
 	font-size: 14px;
 	color: #8e8e8e;
+}
+
+.post-details-time {
+	text-transform: uppercase;
+	font-size: 12px;
+}
+
+.post-comment-container {
+	display: flex;
+	align-items: center;
+	border-top: 1px solid #dbdbdb;
+	padding: 8px 16px;
+}
+.post-comment-left,
+.post-comment-middle {
+	display: flex;
+	align-items: center;
+}
+.post-comment-middle,
+.post-comment-input {
+	width: 100%;
+}
+.post-comment-middle {
+	margin-left: 16px;
+}
+
+.post-comment-input {
+	/* border: 0px;
+	outline: 0; */
+	resize: none;
+}
+
+.post-comment-button {
+	background-color: transparent;
+	border: 0px;
+	color: #0095f6;
+	font-weight: bold;
+	font-size: 14px;
 }
 
 /* .homepage-sidebar {

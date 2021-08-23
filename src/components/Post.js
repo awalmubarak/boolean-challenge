@@ -109,7 +109,23 @@ function Post() {
 					</div>
 				</div>
 
-				<div className="post-comment-container"></div>
+				<div className="post-details-time">1 HOUR AGO</div>
+			</div>
+			<div className="post-comment-container">
+				<div className="post-comment-left">
+					<ion-icon name="happy-outline"></ion-icon>
+				</div>
+
+				<div className="post-comment-middle">
+					<textarea
+						className="post-comment-input"
+						placeholder="Add a comment..."
+					></textarea>
+				</div>
+
+				<div className="post-comment-right">
+					<button className="post-comment-button">Post</button>
+				</div>
 			</div>
 		</div>
 	);
