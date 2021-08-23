@@ -262,9 +262,10 @@ ion-icon[name='happy-outline'] {
 }
 
 .post-comment-input {
-	/* border: 0px;
-	outline: 0; */
+	border: 0px;
+	outline: 0;
 	resize: none;
+	max-height: inherit;
 }
 
 .post-comment-button {
@@ -273,6 +274,16 @@ ion-icon[name='happy-outline'] {
 	color: #0095f6;
 	font-weight: bold;
 	font-size: 14px;
+}
+
+.post-comment-input-unfocused {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	font-size: 14px;
+	color: #8e8e8e;
+	cursor: text;
+	height: 32px;
 }
 
 /* .homepage-sidebar {
