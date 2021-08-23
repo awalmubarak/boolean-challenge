@@ -19,7 +19,7 @@ function Header() {
 					</div>
 
 					<div className="header-actions-item">
-						<span className="icon">
+						<span className="icon is-medium">
 							<ion-icon name="heart-outline"></ion-icon>
 						</span>
 					</div>

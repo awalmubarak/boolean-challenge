@@ -76,6 +76,9 @@
 .header-actions ion-icon {
 	font-size: 24px;
 }
+.header-actions ion-icon[name='heart-outline'] {
+	font-size: 26px;
+}
 
 .header-actions-item {
 	margin-left: 14px;
@@ -190,7 +193,7 @@
 	font-size: 24px;
 }
 
-ion-icon[name='heart-outline'] {
+.post-details-icons ion-icon[name='heart-outline'] {
 	font-size: 25px;
 }
 .post-details-left-icons > span {
