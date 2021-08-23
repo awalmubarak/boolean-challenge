@@ -144,14 +144,16 @@
 	display: none;
 }
 
+.post-main-container {
+	margin-bottom: 24px;
+	border: 1px solid #dbdbdb;
+	border-radius: 3px;
+}
 .post-header-container {
 	height: 60px;
 	width: 100%;
 	background-color: white;
-	border-radius: 3px;
-	border: 1px solid #dbdbdb;
 	padding: 16px;
-	margin-bottom: 24px;
 	display: flex;
 	align-items: center;
 }
@@ -169,6 +171,10 @@
 	font-weight: bold;
 	color: #262626;
 	font-size: 14px;
+}
+
+.post-image {
+	width: 100%;
 }
 
 /* .homepage-sidebar {

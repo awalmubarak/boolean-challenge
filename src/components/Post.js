@@ -19,7 +19,13 @@ function Post() {
 					</span>
 				</div>
 			</header>
-			<div className="post-image-container"></div>
+			<div className="post-image-container">
+				<img
+					src="https://flynn.boolean.careers/exercises/img/boolgram/landscape1.jpg"
+					alt="post"
+					className="post-image"
+				/>
+			</div>
 			<div className="post-details-container"></div>
 			<div className="post-comment-container"></div>
 		</div>
