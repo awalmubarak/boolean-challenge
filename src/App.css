@@ -86,3 +86,19 @@
 	width: 27px;
 	border-radius: 100%;
 }
+
+.homepage-main-content {
+	display: flex;
+	justify-content: center;
+}
+.homepage-content {
+	height: 100vh;
+	background-color: khaki;
+	width: 957px;
+	margin: 0px;
+	margin-top: 50px;
+}
+
+.homepage-sidebar {
+	background-color: lightcoral;
+}
