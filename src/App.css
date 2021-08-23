@@ -1,0 +1,46 @@
+.homepage-main {
+	background-color: #fafafa;
+	height: 100vh;
+}
+
+.header-main {
+	height: 54px;
+	background-color: white;
+	border-bottom: 1px solid #dbdbdb;
+	position: fixed;
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+}
+
+.header-section {
+	width: 957px;
+	justify-content: center;
+	align-items: center;
+}
+
+.header-logo {
+	height: 36px;
+	display: flex;
+	align-items: center;
+}
+
+.header-searchbar {
+	display: flex;
+	justify-content: center;
+}
+
+.header-actions {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.header-actions,
+.header-searchbar,
+.header-logo {
+	padding: 0px;
+}
+
+.logo {
+	height: 100%;
+}
