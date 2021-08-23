@@ -44,3 +44,31 @@
 .logo {
 	height: 100%;
 }
+
+.searchbar-main {
+	height: 28px;
+	width: 215px;
+	background-color: #fafafa;
+	border-radius: 3px;
+	border: solid 1px #dbdbdb;
+}
+
+.searchbar-notfocused {
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 14px;
+	color: #8e8e8e;
+	cursor: text;
+}
+
+.seachbar-input {
+	height: 100%;
+	width: 100%;
+	font-size: 14px;
+	color: #262626;
+	border: 0px;
+	outline: 0;
+	padding: 3px 10px 3px 26px;
+}

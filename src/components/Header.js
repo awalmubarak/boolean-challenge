@@ -1,4 +1,5 @@
 import React from 'react';
+import SearchBar from './SearchBar';
 
 function Header() {
 	return (
@@ -7,7 +8,9 @@ function Header() {
 				<div className="column header-logo">
 					<img src="/logo.png" alt="logo" className="logo" />
 				</div>
-				<div className="column header-searchbar">Search</div>
+				<div className="column header-searchbar">
+					<SearchBar />
+				</div>
 				<div className="column header-actions">Icons</div>
 			</div>
 		</div>
