@@ -1,5 +1,5 @@
 import React from 'react';
-import PostComment from './PostComment';
+import PostCommentInput from './PostCommentInput';
 
 function Post() {
 	return (
@@ -113,7 +113,7 @@ function Post() {
 				<div className="post-details-time">1 HOUR AGO</div>
 			</div>
 			<div>
-				<PostComment />
+				<PostCommentInput />
 			</div>
 		</div>
 	);

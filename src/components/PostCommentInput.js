@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-function PostComment() {
+function PostCommentInput() {
 	const [isFocused, setIsFocused] = useState(false);
 	let textAreaRef = null;
 	const handleFocusedState = () => {
@@ -41,4 +41,4 @@ function PostComment() {
 	);
 }
 
-export default PostComment;
+export default PostCommentInput;
