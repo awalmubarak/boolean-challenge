@@ -26,7 +26,28 @@ function Post() {
 					className="post-image"
 				/>
 			</div>
-			<div className="post-details-container"></div>
+			<div className="post-details-container">
+				<div className="post-details-icons">
+					<div className="post-details-left-icons">
+						<span className="icon is-medium">
+							<ion-icon name="heart-outline"></ion-icon>
+						</span>
+
+						<span className="icon is-medium">
+							<ion-icon name="chatbubble-outline"></ion-icon>
+						</span>
+
+						<span className="icon is-medium">
+							<ion-icon name="send-outline"></ion-icon>
+						</span>
+					</div>
+					<div>
+						<span className="icon is-medium">
+							<ion-icon name="bookmark-outline"></ion-icon>
+						</span>
+					</div>
+				</div>
+			</div>
 			<div className="post-comment-container"></div>
 		</div>
 	);
