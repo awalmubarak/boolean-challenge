@@ -200,5 +200,28 @@
 	margin-right: 6px;
 }
 
+.post-likes-container {
+	display: flex;
+	align-items: center;
+	margin: 8px 0px;
+}
+.post-likes-recent-image {
+	width: 20px;
+	border-radius: 100%;
+	margin-right: 8px;
+}
+
+.post-details-username {
+	font-size: 14px;
+	font-weight: bold;
+}
+.post-details-text {
+	font-size: 14px;
+	text-overflow: ellipsis;
+	line-height: 14px;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
 /* .homepage-sidebar {
 } */
