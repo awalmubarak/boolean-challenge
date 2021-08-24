@@ -131,18 +131,28 @@
 
 .stories-main {
 	display: flex;
+	flex-direction: column;
 	width: 100%;
 	background-color: white;
 	border-radius: 3px;
 	border: 1px solid #dbdbdb;
 	padding: 16px 0px 16px 10px;
+	margin-bottom: 24px;
+}
+.stories-loader {
+	width: 30px;
+	align-self: center;
+	margin-bottom: 10px;
+}
+.stories-list {
+	display: flex;
+	width: 100%;
 	overflow-x: auto;
 	white-space: nowrap;
 	-ms-overflow-style: none;
 	scrollbar-width: none;
-	margin-bottom: 24px;
 }
-.stories-main::-webkit-scrollbar {
+.stories-list::-webkit-scrollbar {
 	display: none;
 }
 
@@ -356,10 +366,8 @@ ion-icon[name='happy-outline'] {
 .homepage-sidebar {
 	padding-right: 0px;
 	position: sticky;
-	max-height: 100vh;
-	overflow-y: auto;
+	height: 100vh;
 	top: 70px;
-	bottom: 0px;
 }
 
 .sidebar-copyright {
