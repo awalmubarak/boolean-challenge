@@ -1,4 +1,5 @@
 import React from 'react';
+import SuggestionItem from './SuggestionItem';
 
 function FollowSuggestions() {
 	return (
@@ -10,6 +11,13 @@ function FollowSuggestions() {
 				<button className="follow-suggestions-header-button">
 					See All
 				</button>
+			</div>
+
+			<div className="follow-suggestions-list">
+				<SuggestionItem />
+				<SuggestionItem />
+				<SuggestionItem />
+				<SuggestionItem />
 			</div>
 		</div>
 	);
