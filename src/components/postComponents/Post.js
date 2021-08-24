@@ -36,7 +36,9 @@ function Post({ post }) {
 				</div>
 
 				<div>
-					<PostComments />
+					{post.comments?.length > 0 && (
+						<PostComments comments={post.comments} />
+					)}
 				</div>
 				<div className="post-details-time">1 HOUR AGO</div>
 			</div>
