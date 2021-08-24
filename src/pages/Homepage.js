@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from '../components/Header';
 import PostsFeed from '../components/PostsFeed';
+import Sidebar from '../components/Sidebar';
 import Stories from '../components/Stories';
 
 function Homepage() {
@@ -13,7 +14,9 @@ function Homepage() {
 						<Stories />
 						<PostsFeed />
 					</div>
-					<aside className="column homepage-sidebar">Hello</aside>
+					<aside className="column homepage-sidebar">
+						<Sidebar />
+					</aside>
 				</div>
 			</div>
 		</div>

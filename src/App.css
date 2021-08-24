@@ -236,7 +236,8 @@ ion-icon[name='happy-outline'] {
 }
 
 .post-comments-title,
-.post-details-time {
+.post-details-time,
+.currentuser-info-name {
 	font-size: 14px;
 	color: #8e8e8e;
 }
@@ -290,5 +291,34 @@ ion-icon[name='happy-outline'] {
 	height: 32px;
 }
 
-/* .homepage-sidebar {
-} */
+.currentuser-main {
+	height: auto;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 10px;
+	margin-top: 20px;
+}
+
+.currentuser-info {
+	display: flex;
+	align-items: center;
+}
+
+.currentuser-info-name {
+	font-weight: bold;
+}
+
+.currentuser-pic {
+	height: 54px;
+	border-radius: 100%;
+	margin-right: 20px;
+}
+
+.homepage-sidebar {
+	padding-right: 0px;
+	position: sticky;
+	max-height: 100vh;
+	overflow-y: auto;
+	top: 70px;
+	bottom: 0px;
+}
