@@ -1,7 +1,8 @@
 import React from 'react';
 import Skeleton from 'react-loading-skeleton';
 
-function StoryItem({ isLoading }) {
+function StoryItem({ isLoading, story = {} }) {
+	const { profile_picture, profile_name } = story;
 	return (
 		<div className="storyitem-main">
 			{isLoading ? (
@@ -10,14 +11,12 @@ function StoryItem({ isLoading }) {
 				<>
 					<div>
 						<img
-							src="/profile-pic.jpeg"
-							alt="story user pic"
+							src={profile_picture}
+							alt={profile_name}
 							className="storyitem-image"
 						/>
 					</div>
-					<div className="storyitem-name">
-						badgyal.lani skfjhs sjlf skdfjl
-					</div>
+					<div className="storyitem-name">{profile_name}</div>
 				</>
 			)}
 		</div>
