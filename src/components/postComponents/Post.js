@@ -9,7 +9,7 @@ function Post() {
 	return (
 		<div className="post-main-container">
 			<div>
-				<PostHeader />
+				<PostHeader isLoading />
 			</div>
 			<div className="post-image-container">
 				<img

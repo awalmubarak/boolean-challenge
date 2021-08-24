@@ -146,13 +146,15 @@
 	display: none;
 }
 
-.post-main-container {
+.post-main-container,
+.post-skeleton-main {
 	margin-bottom: 24px;
 	border: 1px solid #dbdbdb;
 	border-radius: 3px;
 	background-color: white;
 }
-.post-header-container {
+.post-header-container,
+.post-skeleton-header {
 	height: 60px;
 	width: 100%;
 	padding: 16px;
@@ -365,4 +367,11 @@ ion-icon[name='happy-outline'] {
 	font-size: 11px;
 	margin-top: 30px;
 	text-transform: uppercase;
+}
+
+.post-skeleton-header {
+	line-height: 1;
+}
+.post-skeleton-header-details {
+	margin-top: 4px;
 }
