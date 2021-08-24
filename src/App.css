@@ -222,6 +222,7 @@ ion-icon[name='happy-outline'] {
 }
 .post-likes-recent-image {
 	width: 20px;
+	height: 20px;
 	border-radius: 100%;
 	margin-right: 8px;
 }

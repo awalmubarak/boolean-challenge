@@ -1,17 +1,17 @@
 import React from 'react';
 
-function PostHeader() {
+function PostHeader({ name, profilePic }) {
 	return (
 		<header className="post-header-container">
 			<img
-				src="/profile-pic.jpeg"
-				alt="story user pic"
+				src={profilePic}
+				alt={name}
 				className="storyitem-image"
 				style={{ width: '32px', height: '32px' }}
 			/>
 
 			<div className="post-header-details">
-				<div className="post-header-username">aminabuddafly</div>
+				<div className="post-header-username">{name}</div>
 
 				<span className="icon">
 					<ion-icon name="ellipsis-horizontal"></ion-icon>
