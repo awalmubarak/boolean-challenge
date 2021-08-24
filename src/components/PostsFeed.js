@@ -2,12 +2,16 @@ import React from 'react';
 import Post from './postComponents/Post';
 import PostSkeleton from './postComponents/PostSkeleton';
 
-function PostsFeed() {
+function PostsFeed({ isLoading, posts }) {
 	return (
 		<div>
-			<PostSkeleton />
-			<Post />
-			<Post />
+			{isLoading ? (
+				<PostSkeleton />
+			) : (
+				posts?.map((post) => {
+					return <Post post={post} key={post.date.date} />;
+				})
+			)}
 		</div>
 	);
 }

@@ -1,26 +1,26 @@
 import React from 'react';
 import StoryItem from './StoryItem';
 
-function Stories() {
+function Stories({ isLoading, stories }) {
 	return (
 		<div className="stories-main">
-			<div className="stories-loader">
-				<img src="/loading-buffering.gif" alt="stories loading" />
-			</div>
+			{isLoading && (
+				<div className="stories-loader">
+					<img src="/loading-buffering.gif" alt="stories loading" />
+				</div>
+			)}
+
 			<div className="stories-list">
-				<StoryItem isLoading />
-				<StoryItem isLoading />
-				<StoryItem isLoading />
-				<StoryItem />
-				<StoryItem />
-				<StoryItem />
-				<StoryItem />
-				<StoryItem />
-				<StoryItem />
-				<StoryItem />
-				<StoryItem />
-				<StoryItem />
-				<StoryItem />
+				{isLoading &&
+					Array(7)
+						.fill(1)
+						.map((item, i) => {
+							return <StoryItem isLoading key={i} />;
+						})}
+
+				{stories?.map((story) => {
+					return <StoryItem story={story} key={story.profile_name} />;
+				})}
 			</div>
 		</div>
 	);
