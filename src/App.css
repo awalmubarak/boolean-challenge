@@ -237,7 +237,8 @@ ion-icon[name='happy-outline'] {
 
 .post-comments-title,
 .post-details-time,
-.currentuser-info-name {
+.currentuser-info-name,
+.follow-suggestions-header-text {
 	font-size: 14px;
 	color: #8e8e8e;
 }
@@ -273,7 +274,8 @@ ion-icon[name='happy-outline'] {
 	max-height: inherit;
 }
 
-.post-comment-button {
+.post-comment-button,
+.follow-suggestions-header-button {
 	background-color: transparent;
 	border: 0px;
 	color: #0095f6;
@@ -304,7 +306,8 @@ ion-icon[name='happy-outline'] {
 	align-items: center;
 }
 
-.currentuser-info-name {
+.currentuser-info-name,
+.follow-suggestions-header-text {
 	font-weight: bold;
 }
 
@@ -312,6 +315,17 @@ ion-icon[name='happy-outline'] {
 	height: 54px;
 	border-radius: 100%;
 	margin-right: 20px;
+}
+
+.follow-suggestions-main {
+	margin-top: 20px;
+}
+.follow-suggestions-header {
+	display: flex;
+	justify-content: space-between;
+}
+.follow-suggestions-header-button {
+	color: #262626;
 }
 
 .homepage-sidebar {
