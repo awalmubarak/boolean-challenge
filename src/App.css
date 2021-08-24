@@ -1,0 +1,294 @@
+.homepage-main {
+	background-color: #fafafa;
+}
+
+.header-main {
+	height: 54px;
+	background-color: white;
+	border-bottom: 1px solid #dbdbdb;
+	position: fixed;
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	z-index: 1;
+}
+
+.header-section {
+	width: 957px;
+	justify-content: center;
+	align-items: center;
+}
+
+.header-logo {
+	height: 36px;
+	display: flex;
+	align-items: center;
+}
+
+.header-searchbar {
+	display: flex;
+	justify-content: center;
+}
+
+.header-actions {
+	display: flex;
+	justify-content: flex-end;
+	align-items: baseline;
+}
+
+.header-actions,
+.header-searchbar,
+.header-logo {
+	padding: 0px;
+}
+
+.logo {
+	height: 100%;
+}
+
+.searchbar-main {
+	height: 28px;
+	width: 215px;
+	background-color: #fafafa;
+	border-radius: 3px;
+	border: solid 1px #dbdbdb;
+}
+
+.searchbar-notfocused {
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 14px;
+	color: #8e8e8e;
+	cursor: text;
+}
+
+.seachbar-input {
+	height: 100%;
+	width: 100%;
+	font-size: 14px;
+	color: #262626;
+	border: 0px;
+	outline: 0;
+	padding: 3px 10px 3px 26px;
+}
+
+.header-actions ion-icon {
+	font-size: 24px;
+}
+.header-actions ion-icon[name='heart-outline'] {
+	font-size: 26px;
+}
+
+.header-actions-item {
+	margin-left: 14px;
+}
+
+.header-user-profile {
+	width: 27px;
+	border-radius: 100%;
+}
+
+.homepage-main-content {
+	display: flex;
+	justify-content: center;
+}
+.homepage-content-container {
+	width: 957px;
+	margin: 0px;
+	margin-top: 70px;
+}
+
+.homepage-content {
+	padding-left: 0px;
+}
+
+.storyitem-main {
+	width: 80px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 0 4px;
+}
+
+.storyitem-image {
+	width: 56px;
+	border-radius: 100%;
+	border: 2px solid red;
+	padding: 2px;
+}
+
+.storyitem-name {
+	max-width: 74px;
+	text-align: center;
+	text-overflow: ellipsis;
+	font-size: 12px;
+	line-height: 14px;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.stories-main {
+	display: flex;
+	width: 100%;
+	background-color: white;
+	border-radius: 3px;
+	border: 1px solid #dbdbdb;
+	padding: 16px 0px 16px 10px;
+	overflow-x: auto;
+	white-space: nowrap;
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+	margin-bottom: 24px;
+}
+.stories-main::-webkit-scrollbar {
+	display: none;
+}
+
+.post-main-container {
+	margin-bottom: 24px;
+	border: 1px solid #dbdbdb;
+	border-radius: 3px;
+	background-color: white;
+}
+.post-header-container {
+	height: 60px;
+	width: 100%;
+	padding: 16px;
+	display: flex;
+	align-items: center;
+}
+
+.post-header-details {
+	display: flex;
+	width: 100%;
+	height: 3px;
+	margin-left: 14px;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.post-header-username {
+	font-weight: bold;
+	color: #262626;
+	font-size: 14px;
+}
+
+.post-image {
+	width: 100%;
+}
+
+.post-details-container {
+	padding: 0px 16px;
+	margin-top: 5px;
+}
+
+.post-details-icons {
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+}
+
+.post-details-icons ion-icon {
+	font-size: 24px;
+}
+
+.post-details-icons ion-icon[name='heart-outline'],
+ion-icon[name='happy-outline'] {
+	font-size: 25px;
+}
+.post-details-left-icons > span {
+	margin-right: 6px;
+}
+
+.post-likes-container {
+	display: flex;
+	align-items: center;
+	margin: 4px 0px;
+}
+.post-likes-recent-image {
+	width: 20px;
+	border-radius: 100%;
+	margin-right: 8px;
+}
+
+.post-details-username {
+	font-size: 14px;
+	font-weight: bold;
+}
+.post-details-text {
+	font-size: 14px;
+	text-overflow: ellipsis;
+	line-height: 14px;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.post-owner-container,
+.post-comments-container,
+.post-comment-item {
+	margin: 4px 0px;
+}
+
+.post-details-time {
+	margin: 8px 0px;
+}
+
+.post-comments-title,
+.post-details-time {
+	font-size: 14px;
+	color: #8e8e8e;
+}
+
+.post-details-time {
+	text-transform: uppercase;
+	font-size: 12px;
+}
+
+.post-comment-container {
+	display: flex;
+	align-items: center;
+	border-top: 1px solid #dbdbdb;
+	padding: 8px 16px;
+}
+.post-comment-left,
+.post-comment-middle {
+	display: flex;
+	align-items: center;
+}
+.post-comment-middle,
+.post-comment-input {
+	width: 100%;
+}
+.post-comment-middle {
+	margin-left: 16px;
+}
+
+.post-comment-input {
+	border: 0px;
+	outline: 0;
+	resize: none;
+	max-height: inherit;
+}
+
+.post-comment-button {
+	background-color: transparent;
+	border: 0px;
+	color: #0095f6;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.post-comment-input-unfocused {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	font-size: 14px;
+	color: #8e8e8e;
+	cursor: text;
+	height: 32px;
+}
+
+/* .homepage-sidebar {
+} */
