@@ -1,4 +1,5 @@
 import React from 'react';
+import { timeSince } from '../../utils/time';
 import PostActionIcons from './PostActionIcons';
 import PostCommentInput from './PostCommentInput';
 import PostComments from './PostComments';
@@ -6,6 +7,7 @@ import PostHeader from './PostHeader';
 import PostLikes from './PostLikes';
 
 function Post({ post }) {
+	const date = Date.parse(post.date.date);
 	return (
 		<div className="post-main-container">
 			<div>
@@ -40,7 +42,9 @@ function Post({ post }) {
 						<PostComments comments={post.comments} />
 					)}
 				</div>
-				<div className="post-details-time">1 HOUR AGO</div>
+				<div className="post-details-time">
+					{timeSince(new Date(date))}
+				</div>
 			</div>
 			<div>
 				<PostCommentInput />
