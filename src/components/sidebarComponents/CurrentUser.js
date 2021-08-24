@@ -11,8 +11,8 @@ function CurrentUser() {
 				/>
 
 				<div>
-					<div className="post-details-username">drexla.tracks</div>
-					<div className="currentuser-info-name">drexla.tracks</div>
+					<div className="post-details-username">d.junior</div>
+					<div className="currentuser-info-name">Drexla Tracks</div>
 				</div>
 			</div>
 
