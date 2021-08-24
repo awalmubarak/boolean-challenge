@@ -1,6 +1,6 @@
-import { GET_POSTS, GET_PROFILES } from './endpoints';
+import { GET_POSTS, GET_STORIES } from './endpoints';
 
-const baseUrl = 'https://flynn.boolean.careers/exercises/api/boolgram/';
+const baseUrl = 'https://flynn.boolean.careers/exercises/api/boolgram';
 
 export const getPosts = async () => {
 	try {
@@ -12,9 +12,9 @@ export const getPosts = async () => {
 	}
 };
 
-export const getProfiles = async () => {
+export const getStories = async () => {
 	try {
-		const response = await fetch(`${baseUrl}/${GET_PROFILES}`);
+		const response = await fetch(`${baseUrl}/${GET_STORIES}`);
 		const profiles = await response.json();
 		return profiles;
 	} catch (error) {
