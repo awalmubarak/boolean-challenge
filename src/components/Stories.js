@@ -4,9 +4,9 @@ import StoryItem from './StoryItem';
 function Stories() {
 	return (
 		<div className="stories-main">
-			<StoryItem />
-			<StoryItem />
-			<StoryItem />
+			<StoryItem isLoading />
+			<StoryItem isLoading />
+			<StoryItem isLoading />
 			<StoryItem />
 			<StoryItem />
 			<StoryItem />
