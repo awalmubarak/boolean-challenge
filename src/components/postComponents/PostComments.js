@@ -1,16 +1,20 @@
 import React from 'react';
 import PostCommentItem from './PostCommentItem';
 
-function PostComments() {
+function PostComments({ comments }) {
+	const commentsCount = comments.length;
+	const commentsToShow = commentsCount > 3 ? comments.slice(0, 3) : comments;
 	return (
 		<div className="post-comments-container">
-			<div className="post-comments-title">View all 65 comments</div>
+			{commentsCount > 3 && (
+				<div className="post-comments-title">
+					View all {commentsCount} comments
+				</div>
+			)}
 			<div className="post-comments-list">
-				<PostCommentItem />
-				<PostCommentItem />
-				<PostCommentItem />
-				<PostCommentItem />
-				<PostCommentItem />
+				{commentsToShow.map((comment, i) => {
+					return <PostCommentItem comment={comment} key={i} />;
+				})}
 			</div>
 		</div>
 	);

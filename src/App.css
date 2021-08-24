@@ -114,6 +114,7 @@
 
 .storyitem-image {
 	width: 56px;
+	height: 56px;
 	border-radius: 100%;
 	border: 2px solid red;
 	padding: 2px;
@@ -131,28 +132,40 @@
 
 .stories-main {
 	display: flex;
+	flex-direction: column;
 	width: 100%;
 	background-color: white;
 	border-radius: 3px;
 	border: 1px solid #dbdbdb;
 	padding: 16px 0px 16px 10px;
+	margin-bottom: 24px;
+}
+.stories-loader {
+	width: 30px;
+	align-self: center;
+	margin-bottom: 10px;
+}
+.stories-list {
+	display: flex;
+	width: 100%;
 	overflow-x: auto;
 	white-space: nowrap;
 	-ms-overflow-style: none;
 	scrollbar-width: none;
-	margin-bottom: 24px;
 }
-.stories-main::-webkit-scrollbar {
+.stories-list::-webkit-scrollbar {
 	display: none;
 }
 
-.post-main-container {
+.post-main-container,
+.post-skeleton-main {
 	margin-bottom: 24px;
 	border: 1px solid #dbdbdb;
 	border-radius: 3px;
 	background-color: white;
 }
-.post-header-container {
+.post-header-container,
+.post-skeleton-header {
 	height: 60px;
 	width: 100%;
 	padding: 16px;
@@ -209,6 +222,7 @@ ion-icon[name='happy-outline'] {
 }
 .post-likes-recent-image {
 	width: 20px;
+	height: 20px;
 	border-radius: 100%;
 	margin-right: 8px;
 }
@@ -236,7 +250,9 @@ ion-icon[name='happy-outline'] {
 }
 
 .post-comments-title,
-.post-details-time {
+.post-details-time,
+.currentuser-info-name,
+.follow-suggestions-header-text {
 	font-size: 14px;
 	color: #8e8e8e;
 }
@@ -272,7 +288,8 @@ ion-icon[name='happy-outline'] {
 	max-height: inherit;
 }
 
-.post-comment-button {
+.post-comment-button,
+.follow-suggestions-header-button {
 	background-color: transparent;
 	border: 0px;
 	color: #0095f6;
@@ -290,5 +307,80 @@ ion-icon[name='happy-outline'] {
 	height: 32px;
 }
 
-/* .homepage-sidebar {
-} */
+.currentuser-main {
+	height: auto;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 10px;
+	margin-top: 20px;
+}
+
+.currentuser-info {
+	display: flex;
+	align-items: center;
+}
+
+.follow-suggestions-header-text {
+	font-weight: bold;
+}
+
+.currentuser-pic {
+	height: 54px;
+	border-radius: 100%;
+	margin-right: 20px;
+}
+
+.follow-suggestions-main {
+	margin-top: 20px;
+}
+.follow-suggestions-header {
+	display: flex;
+	justify-content: space-between;
+}
+.follow-suggestions-header-button {
+	color: #262626;
+}
+
+.suggestionitem-main {
+	width: 100%;
+	padding: 12px 0px;
+	height: 48px;
+	display: flex;
+	align-items: center;
+}
+
+.suggestionitem-image {
+	width: 35px;
+	border-radius: 100%;
+}
+
+.suggestionitem-details {
+	width: 100%;
+	padding-left: 20px;
+	line-height: 1;
+}
+
+.follow-suggestions-list {
+	margin-top: 8px;
+}
+
+.homepage-sidebar {
+	padding-right: 0px;
+	position: sticky;
+	height: 100vh;
+	top: 70px;
+}
+
+.sidebar-copyright {
+	color: #a2a1a1;
+	font-size: 11px;
+	margin-top: 30px;
+	text-transform: uppercase;
+}
+
+.post-skeleton-header {
+	line-height: 1;
+}
+.post-skeleton-header-details {
+	margin-top: 4px;
+}
