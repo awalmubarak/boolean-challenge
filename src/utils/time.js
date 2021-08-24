@@ -7,6 +7,7 @@ const intervals = [
 	{ label: 'second', seconds: 1 },
 ];
 
+//return date time in 'moment ago' format
 export function timeSince(date) {
 	const seconds = Math.floor((Date.now() - date.getTime()) / 1000);
 	const interval = intervals.find((i) => i.seconds < seconds);
