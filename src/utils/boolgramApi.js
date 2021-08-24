@@ -8,6 +8,7 @@ export const getPosts = async () => {
 		const posts = await response.json();
 		return posts;
 	} catch (error) {
+		//handle error state in a real project
 		console.log(error);
 	}
 };
@@ -18,6 +19,7 @@ export const getStories = async () => {
 		const profiles = await response.json();
 		return profiles;
 	} catch (error) {
+		//handle error state in a real project
 		console.log(error);
 	}
 };
