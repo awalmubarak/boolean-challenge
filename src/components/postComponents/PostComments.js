@@ -12,8 +12,8 @@ function PostComments({ comments }) {
 				</div>
 			)}
 			<div className="post-comments-list">
-				{commentsToShow.map((comment) => {
-					return <PostCommentItem comment={comment} />;
+				{commentsToShow.map((comment, i) => {
+					return <PostCommentItem comment={comment} key={i} />;
 				})}
 			</div>
 		</div>
