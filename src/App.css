@@ -359,3 +359,10 @@ ion-icon[name='happy-outline'] {
 	top: 70px;
 	bottom: 0px;
 }
+
+.sidebar-copyright {
+	color: #a2a1a1;
+	font-size: 11px;
+	margin-top: 30px;
+	text-transform: uppercase;
+}

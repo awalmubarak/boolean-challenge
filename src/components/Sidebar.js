@@ -11,6 +11,10 @@ function Sidebar() {
 			<div className="sidebar-suggestions">
 				<FollowSuggestions />
 			</div>
+
+			<div className="sidebar-copyright">
+				© 2021 INSTAGRAM FROM FACEBOOK
+			</div>
 		</div>
 	);
 }
